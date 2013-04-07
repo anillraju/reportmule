@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <interface id="1" language="java" name="com.saba.report.engine.ReportEngine" project="Reporting" 
+    file="/Reporting/src/com/saba/report/engine/ReportEngine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="145" x="1342" y="393"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="com.saba.report.metadata.ReportMetaData" project="Reporting" 
+    file="/Reporting/src/com/saba/report/metadata/ReportMetaData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="189" x="3278" y="393"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <package id="3" language="java" name="com.saba.report.attribute" project="Reporting" 
+    file="/Reporting/src/com/saba/report/attribute" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="169" x="654" y="38"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <class id="4" language="java" name="com.saba.report.engine.ReportEngineImpl" project="Reporting" 
+    file="/Reporting/src/com/saba/report/engine/ReportEngineImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="284" x="1342" y="38"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.saba.report.ReportRow" project="Reporting" 
+    file="/Reporting/src/com/saba/report/ReportRow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1170" y="343"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.saba.report.metadata.ReportMetadataManager" project="Reporting" 
+    file="/Reporting/src/com/saba/report/metadata/ReportMetadataManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="233" x="1069" y="38"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="com.saba.report.Report" project="Reporting" 
+    file="/Reporting/src/com/saba/report/Report.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="226" x="3012" y="393"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="com.saba.report.filter.FilterCondition" project="Reporting" 
+    file="/Reporting/src/com/saba/report/filter/FilterCondition.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="158" x="2814" y="38"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <package id="9" language="java" name="com.saba.report.filter" project="Reporting" 
+    file="/Reporting/src/com/saba/report/filter" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="147" x="1666" y="38"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <class id="10" language="java" name="com.saba.report.attribute.ReportColumn" project="Reporting" 
+    file="/Reporting/src/com/saba/report/attribute/ReportColumn.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="194" x="1853" y="38"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="11" language="java" name="com.saba.report.filter.Operator" project="Reporting" 
+    file="/Reporting/src/com/saba/report/filter/Operator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="131" x="2643" y="393"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="12" language="java" name="com.saba.report.ReportImpl" project="Reporting" 
+    file="/Reporting/src/com/saba/report/ReportImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="226" x="3012" y="38"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.saba.report.metadata.ReportMetadataImpl" project="Reporting" 
+    file="/Reporting/src/com/saba/report/metadata/ReportMetadataImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="189" x="3278" y="38"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <package id="14" language="java" name="com.saba.report.metadata" project="Reporting" 
+    file="/Reporting/src/com/saba/report/metadata" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="175" x="2087" y="38"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <interface id="15" language="java" name="com.saba.report.filter.ReportFilter" project="Reporting" 
+    file="/Reporting/src/com/saba/report/filter/ReportFilter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="158" x="2814" y="393"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <package id="16" language="java" name="com.saba.report.engine" project="Reporting" 
+    file="/Reporting/src/com/saba/report/engine" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="159" x="2302" y="38"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="17" language="java" name="com.saba.report" project="Reporting" file="/Reporting/src/com/saba/report" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="118" x="2656" y="38"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <interface id="18" language="java" name="com.saba.report.attribute.Columns" project="Reporting" 
+    file="/Reporting/src/com/saba/report/attribute/Columns.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="63" width="115" x="2501" y="38"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <package id="19" language="java" name="com.saba.report.client" project="Reporting" 
+    file="/Reporting/src/com/saba/report/client" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="74" y="184"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <class id="20" language="java" name="com.saba.report.client.ReportServiceImpl" project="Reporting" 
+    file="/Reporting/src/com/saba/report/client/ReportServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="331" y="227"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="21" language="java" name="com.saba.report.client.ReportService" project="Reporting" 
+    file="/Reporting/src/com/saba/report/client/ReportService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="332" y="551"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <association id="22">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="23" name="reportMetaData"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="25">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="26">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <realization id="27">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <realization id="28">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="29">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="30">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="31" name="operator"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
