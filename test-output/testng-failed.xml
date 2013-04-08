@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.saba.report.TestReport">
+      <class name="com.saba.report.TestPdf">
         <methods>
-          <include name="testExistingReport"/>
+          <include name="testPdfCreation"/>
         </methods>
-      </class> <!-- com.saba.report.TestReport -->
+      </class> <!-- com.saba.report.TestPdf -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -10,6 +10,9 @@ public class ReportGenerationEngineFactory {
 		case REST:
 			return new RestReportGenerator();
 
+		case PDF:
+			return new PDFReportGenerator();
+
 		default:
 			return new DefaultReportGenerator();
 		}

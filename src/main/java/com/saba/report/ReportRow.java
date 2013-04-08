@@ -42,7 +42,7 @@ public class ReportRow implements DBObject {
 				else if (map instanceof BasicDBObject)
 					map = ((BasicDBObject) (map)).get(string);
 			}
-			return (String) map;
+			return  map;
 		}
 		return dbObject.get(columnName);
 	}

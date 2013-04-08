@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <mule-configuration xmlns="http://www.mulesoft.com/tooling/messageflow" name="ReportMule">
-    <flow SubFlow="false" name="ReportMuleFlow1" entity-id="c0258c01-593c-4827-991f-2b68a6bf6cfc">
+    <flow SubFlow="false" name="ReportMuleFlow1" entity-id="5983a160-a94b-4a70-b4fc-e55e8ba03874">
         <properties>
             <property name="processingStrategy2"/>
             <property name="processingStrategy"/>

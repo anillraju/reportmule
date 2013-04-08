@@ -2,6 +2,9 @@ package com.saba.report.output;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.text.Format;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,7 +26,7 @@ public class CSVReportGenerator implements ReportGenerationEngine {
 	public ReportOutput createReport(Report report) throws Exception {
 		reportOutput = new CsvReportOutput();
 		
-		File file = new File(""+System.nanoTime());
+		File file = new File(System.nanoTime()+".csv");
 		reportOutput.setData(file);
 		Builder csvPreference = new CsvPreference.Builder('\"', ',', "\n");
 		CsvMapWriter mapWriter = null;
@@ -50,7 +53,13 @@ public class CSVReportGenerator implements ReportGenerationEngine {
 			for (ReportColumn reportColumn : reportColumns) {
 				String columnName = reportColumn.getDisplayName();
 				Object vl = row.get(reportColumn.getColumnName());
-				dataMap.put(columnName, (String)vl);
+				if(vl instanceof Date){
+					Format formatter = new SimpleDateFormat("yyyy-MM-dd");
+					String s = formatter.format(vl);
+					dataMap.put(columnName, (String)s);
+				}else{
+					dataMap.put(columnName, ""+vl);
+				}
 			}
 			mapWriter.write(dataMap, header);
 			row = report.getNextRow();
